@@ -1,0 +1,11 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.3.2
+compiler:
+  solc:
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.3.2"
+dotenv: .env
+wallets:
+  bsc-test:
+    account: ${ACCOUNT_KEY}
+    verify: true
